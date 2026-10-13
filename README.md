@@ -122,7 +122,7 @@ On vérifie que tout est bon :
 
 - **Ouvrir un navigateur et saisir https://192.168.10.5**
 
-
+<img width="777" height="110" alt="image" src="https://github.com/user-attachments/assets/ab492ef3-83a6-4cb2-876f-f5c780866ec6" />
 
 <aside>
 
@@ -132,15 +132,17 @@ On vérifie que tout est bon :
 
 **On n’attribue l’adresse IP 192.168.30.2 à la VM debian,afin quelle rentrent dans le lan :**
 
-!image.png
+<img width="488" height="181" alt="image" src="https://github.com/user-attachments/assets/7281140e-f3ee-4208-b4f0-151be8d6337b" />
+
 
 **Vérifier le statut du serveur Web Apache :**
 
-!image.png
+<img width="739" height="92" alt="image" src="https://github.com/user-attachments/assets/75f517da-5d9b-4c73-b771-5557a578fbb6" />
 
 **Ouvrir un navigateur et saisir http://192.168.30.2**
 
-!image.png
+<img width="430" height="146" alt="image" src="https://github.com/user-attachments/assets/53d40a15-6f31-4781-a4fe-51e2b3d96f63" />
+
 
 <aside>
 
@@ -150,13 +152,15 @@ On vérifie que tout est bon :
 
 **On ouvre Edge et  on se connecte à pfSense : https://192.168.10.5 :**
 
-!image.png
+<img width="438" height="44" alt="image" src="https://github.com/user-attachments/assets/404d566d-fe72-4def-9529-8719bc504454" />
+
 
 **Dans le menu haut, va dans Firewall > Rules > onglet LAN et On clique sur le bouton Add** 
 
 **Configurer la règle :**
 
-!image.png
+<img width="810" height="279" alt="image" src="https://github.com/user-attachments/assets/23f8ff92-63ce-415a-86f5-ed4a51db9592" />
+
 
 <aside>
 
@@ -168,7 +172,8 @@ On vérifie que tout est bon :
 
 **Sur un poste physique de la salle  Ouvre un navigateur et tape l'IP WAN de pfSense (192.168.20.174) ;**
 
-!image.png
+<img width="560" height="110" alt="image" src="https://github.com/user-attachments/assets/1584d969-07a5-449d-bc49-3941fff5c6e2" />
+
 
 **Accès interne LAN -> DMZ fonctionnel via http://192.168.30.2]**
 
@@ -198,39 +203,44 @@ S**olution retenue : Installation du paquet ntopng via le gestionnaire de paquet
 
 **System > Package Manager > Available Packages :**
 
-!image.png
+<img width="550" height="38" alt="image" src="https://github.com/user-attachments/assets/dfbe9554-5520-4676-9687-07bdcfedc292" />
+
 
 **Recherche du paquet ntopng,on clic sur Install puis confirmation :**
 
-!image.png
+<img width="427" height="62" alt="image" src="https://github.com/user-attachments/assets/aa4b5fa5-cc26-4d4e-9fdb-0ba9b4513dae" />
 
 **Activation et paramétrage du service dans Diagnostics > ntopng Settings :**
 
-!image.png
+<img width="512" height="46" alt="image" src="https://github.com/user-attachments/assets/9802986b-a55a-4736-9ff5-1806568c1afc" />
+
 
 **Cocher Enable ntopng**
 
-!image.png
+<img width="389" height="49" alt="image" src="https://github.com/user-attachments/assets/5bbae798-ad3d-4ee8-a500-4e4ac4c0e7f9" />
 
  **Sélectionner l'interface LAN**
-
-!image.png
+ 
+<img width="292" height="49" alt="image" src="https://github.com/user-attachments/assets/38cda6a1-7aef-4ba1-8402-d2c6de1e46f1" />
 
 **Définir un mot de passe administrateur**
 
-!image.png
+<img width="282" height="58" alt="image" src="https://github.com/user-attachments/assets/f2474f24-a6ea-4781-be76-e159ea63da11" />
 
 **Dans pfsense on va dans “Access ntopng”**
 
-!image.png
+<img width="453" height="59" alt="image" src="https://github.com/user-attachments/assets/f5fe85eb-2bf0-492d-ba5c-506663622aa2" />
+
 
 **Page d'authentification on s'y authentifie avec l'utilisateur par défaut admin et le mot de passe configuré dans pfSense :**
 
-!image.png
+<img width="577" height="181" alt="image" src="https://github.com/user-attachments/assets/7199ef72-ccd7-499a-9113-91852f6bff95" />
+
 
 **Tableau de bord  (Dashboard / vtnet1) : Confirme que le service fonctionne correctement et écoute bien sur l'interface LAN (désignée par l'interface système vtnet1 :**
 
-!image.png
+!<img width="567" height="128" alt="image" src="https://github.com/user-attachments/assets/24a0289d-d55d-4588-bd5a-e4e1f98cb668" />
+
 
 <aside>
 
@@ -242,12 +252,17 @@ S**olution retenue : Installation du paquet ntopng via le gestionnaire de paquet
 
  **dans Centre Réseau et Partage > Modifier les paramètres de la carte > Propriétés d'Ethernet > Protocole Internet version 4 (TCP/IPv4) :**
 
-!image.png
+<img width="497" height="170" alt="image" src="https://github.com/user-attachments/assets/f613ffea-d745-4250-8f6c-f64600e3ba58" />
+
 
 **Activer le Bureau à distance (RDP) dans Ce PC (clic droit) > Propriétés (ou Paramètres > Système > Bureau à distance)**
 
-!image.png
+<img width="466" height="188" alt="image" src="https://github.com/user-attachments/assets/6a005f54-6c06-4889-93a6-d875bd63e0ba" />
+
 
 **Autoriser le trafic RDP dans le Pare-feu Windows**
 
 **Va dans Panneau de configuration > Pare-feu Windows Defender > Autoriser une application ou une fonctionnalité > Coche la case Bureau à distance pour les réseaux Privés et Publics.**
+
+<img width="966" height="34" alt="image" src="https://github.com/user-attachments/assets/eaf687cb-bebd-4b0e-91e9-05f9fcd281e1" />
+
