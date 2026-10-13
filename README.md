@@ -7,7 +7,6 @@
 
 Étude de la mise en place d’un serveur Web sécurisé avec PfSense.
 
-</aside>
 
 ## Mise en situation
 
@@ -47,7 +46,8 @@ Afin de sécuriser au maximum le système d’information, le serveur Web doit �
 
 </aside>
 
-!image.png
+<img width="369" height="409" alt="image" src="https://github.com/user-attachments/assets/1033a66e-8b7d-47bc-8914-c930c6c64110" />
+
 
 <aside>
 
@@ -57,7 +57,7 @@ Afin de sécuriser au maximum le système d’information, le serveur Web doit �
 
 </aside>
 
-!image.png
+<img width="819" height="60" alt="image" src="https://github.com/user-attachments/assets/2cdb6eff-9e55-435b-ac84-44859f6d2b26" />
 
 <aside>
 
@@ -65,15 +65,15 @@ Afin de sécuriser au maximum le système d’information, le serveur Web doit �
 
 </aside>
 
-!image.png
+<img width="551" height="78" alt="image" src="https://github.com/user-attachments/assets/5740c9a6-2cec-4799-a08c-5d1c4f825234" />
 
 <aside>
 
 **On demarre notre pfsens et on n’arrive sur l’interface:**
 
 </aside>
+<img width="650" height="280" alt="image" src="https://github.com/user-attachments/assets/8a079f97-4501-4d25-ac29-34f4cc9ae04d" />
 
-!image.png
 
 <aside>
 
@@ -81,7 +81,8 @@ Afin de sécuriser au maximum le système d’information, le serveur Web doit �
 
 </aside>
 
-!image.png
+<img width="524" height="117" alt="image" src="https://github.com/user-attachments/assets/af2a93e0-bd8b-4914-ae84-e3d989821e4c" />
+
 
 <aside>
 
@@ -89,7 +90,7 @@ Afin de sécuriser au maximum le système d’information, le serveur Web doit �
 
 </aside>
 
-!image.png
+<img width="747" height="71" alt="image" src="https://github.com/user-attachments/assets/97c62b48-70f7-46fc-a92f-36fe7a3ca1cb" />
 
 <aside>
 
@@ -97,11 +98,12 @@ Afin de sécuriser au maximum le système d’information, le serveur Web doit �
 
 </aside>
 
-!image.png
+<img width="749" height="76" alt="image" src="https://github.com/user-attachments/assets/0756cf7a-9329-4908-9d63-5307737c62d7" />
+
 
 On vérifie que tout est bon :
 
-!image.png
+<img width="697" height="84" alt="image" src="https://github.com/user-attachments/assets/40ddfea4-605e-4f28-84ab-d3fc1f137c4e" />
 
 <aside>
 
@@ -111,13 +113,16 @@ On vérifie que tout est bon :
 
 **On n’attribue l’adresse IP 192.168.10.10 à la VM Windows 11,afin quelle rentrent dans le lan  :**
 
-!image.png
+
+<img width="437" height="220" alt="image" src="https://github.com/user-attachments/assets/6e3218df-02b5-48f1-8a65-5eff3921cc54" />
+
+
 
 **Se connecter à l'interface Web pfSense :**
 
 - **Ouvrir un navigateur et saisir https://192.168.10.5**
 
-!image.png
+
 
 <aside>
 
