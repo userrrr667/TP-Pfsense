@@ -266,3 +266,20 @@ S**olution retenue : Installation du paquet ntopng via le gestionnaire de paquet
 
 <img width="966" height="34" alt="image" src="https://github.com/user-attachments/assets/eaf687cb-bebd-4b0e-91e9-05f9fcd281e1" />
 
+**NAT/PAT sur pfSense**
+
+<img width="1135" height="137" alt="image" src="https://github.com/user-attachments/assets/2c66148f-be16-46a9-ac7f-3acf135b55ea" />
+
+**validation du RDP**
+**Depuis le poste client externe (WAN), exécution du client RDP :**
+
+<img width="617" height="20" alt="image" src="https://github.com/user-attachments/assets/a447b2a7-621d-40cc-8cca-0c21d6a8dba9" />
+
+**Résultat : La session distante du serveur Windows Server en DMZ s'ouvre correctement à travers la redirection de port du pare-feu pfSense.**
+
+<img width="1878" height="797" alt="image" src="https://github.com/user-attachments/assets/5cabec83-f4fb-4422-a485-2193b19e1dff" />
+
+
+
+
+
